@@ -1,0 +1,17 @@
+{
+	"name": "users-service",
+	"workspaces": [
+		"server",
+		"client"
+	],
+	"scripts": {
+		"server": "yarn workspace server",
+		"client": "yarn workspace client",
+		"dev": "construct dev",
+		"build": "construct build",
+		"start": "node dist/main.cjs"
+	},
+	"devDependencies": {
+		"@sa-net/construct": "^0"
+	}
+}
